@@ -14,10 +14,8 @@ const bankAccount = {
 };
 bankAccount.deposit(Number(prompt("скільки хочете покласти грошей")));
 alert(`сума на карті ${bankAccount.balance}`)
-console.log(`${bankAccount.balance}`);
 bankAccount.withdraw(Number(prompt("скільки хочете покласти грошей")));
 alert(`сума на карті ${bankAccount.balance}`)
-console.log(`${bankAccount.balance}`);
 
 
 
